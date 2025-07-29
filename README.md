@@ -51,8 +51,8 @@ An all-in-one Office Management Suite built with **CodeIgniter 4**, designed to 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/office-management-suite.git
-cd office-management-suite
+git clone https://github.com/mahamihirion/crm.git
+cd crm
 ```
 
 ### 2. Install Dependencies
@@ -84,7 +84,7 @@ chmod -R 775 writable
 
 ### 5. Create Database
 
-Create a MySQL database (e.g., `office_mgmt`) and import the included `database.sql` file OR run:
+Create a MySQL database (e.g., `office_mgmt`) and import the included `ci4sample.sql` file OR run:
 
 ```bash
 php spark migrate
@@ -106,10 +106,6 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 app/
 ├── Config/
 ├── Controllers/
-│   ├── CRM/
-│   ├── Inventory/
-│   ├── Sales/
-│   ├── Services/
 ├── Models/
 ├── Views/
 ├── Filters/
